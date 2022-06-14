@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">COVID ALERTA</string>
+
+    <string name="facebook_app_id">344943646596529</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_contenedor_instrucciones_bt">ContenedorInstruccionesBT</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_instruccion_1">Diríjase hacia los ajustes de su teléfono móvil y presione la opción ACERCA DEL TELÉFONO.</string>
+    <string name="channel_name">Notificacion</string>
+
+    <string name="politicas_de_google">Debido a las políticas de privacidad de Google, es necesario que actives el permiso de ubicación todo el tiempo e ingreses manualmente la DIRECCIÓN BLUETOOTH de tu teléfono móvil.</string>
+    <string name="tutoriales">Si no tienes conocimiento acerca de lo mencionado anteriormente te brindamos los siguientes tutoriales. Pulsa en TUTORIAL PARA PERMISOS DE UBICACIÓN (Android 9 o superior) y TUTORIAL PARA DIRECCIÓN BLUETOOTH.</string>
+    <string name="sintomas">Si presentas alguno de los siguientes síntomas o signos, podría tratarse de un caso más grave y deberás buscar atención médica inmediata:</string>
+    <string name="title_activity_diagnostico">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="info_reporte">Aquí se muestra el número de personas infectadas con COVID-19 en las 4 últimas semanas con las que tuviste contacto.</string>
+    <string name="texto_instruccion_2">En la siguiente pestaña busque la opción ESTADO y seleccionela.</string>
+    <string name="texto_instruccion_3">Una vez aquí, busque la oción DIRECCIÓN DE BLUETOOTH y presione hasta que aparezca la opción de copiar.</string>
+    <string name="texto_instruccion_4">Mantenga presionada la caja de texto y luego pegue la Dirección de Bluetooth.</string>
+    <string name="title_activity_contenedor_instrucciones_b_t_samsung">
+        ContenedorInstruccionesBTSamsung
+    </string>
+    <string name="title_activity_contenedor_instrucciones_b_t_motorola">
+        ContenedorInstruccionesBTMotorola
+    </string>
+    <string name="texto_instruccion_1_motorola">Diríjase hacia la configuración de su teléfono móvil y presione la opción SISTEMA.</string>
+    <string name="texto_instruccion_2_motorola">En la siguiente pestaña busque la opción ACERCA DEL TELÉFONO y seleccionela.</string>
+    <string name="texto_instruccion_3_motorola">En la siguiente pestaña busque la opción ESTADO y seleccionela.</string>
+    <string name="texto_instruccion_4_motorola">Una vez aquí, busque la oción DIRECCIÓN DE BLUETOOTH y presione hasta que aparezca la opción de copiar.</string>
+    <string name="title_activity_contenedor_instrucciones_b_t_xiaomi">
+        ContenedorInstruccionesBTXiaomi
+    </string>
+    <string name="texto_instruccion_2_xiaomi">En la siguiente pestaña busque la opción TODAS LAS ESPECIFICACIONES y seleccionela.</string>
+    <string name="recomendacion_minsa">El Ministerio de Salud del Perú recomienda seguir los siguientes pasos para una correcta alimentación si tienes COVID-19:</string>
+    <string name="rastreo_contactos">La función principal de esta aplicación móvil, es el rastreo de contactos a través de la dirección Bluetooth, es decir, escanea dispositivos cercanos y verifica si los usuarios de estos están infectados con el virus de COVID-19. Para ello, ve hacia ajustes y activa la opción de escaneo automático.</string>
+    <string name="registro_contactos_infectados">Una vez que el dispositivo ha escaneado los dispositivos cercanos, este se actualizará con los datos guardados de otros usuarios a través de la conexión a internet y verificará si alguno de ellos está infectado con el virus COVID-19. Para establecer el horario de actualizaciones, ve hacia ajustes y cambia la hora de actualización de datos</string>
+    <string name="info_app">Versión de la aplicación COVID ALERTA: 4.0</string>
+    <string name="direccion_bluetooth_info"></string>
+    <string name="terminos_y_condiciones"><u>Acepto los términos y condiciones</u></string>
+    <string name="parrafo1_terminos_y_condiciones">COVID Alerta hace uso del Bluetooth y GPS del dispositivo móvil. Estos sensores son utilizados para escanear a otros dispositivos cercanos, por lo que es necesario tenerlos activados al iniciar la aplicación.</string>
+    <string name="parrafo2_terminos_y_condiciones">El usuario deberá permitir a la aplicación el uso de la dirección y el estado de visibilidad Bluetooth; así como también la ubicación del dispositivo móvil para poder recolectar datos de otros dispositivos cercanos.</string>
+    <string name="parrafo3_terminos_y_condiciones">Los datos personales y la dirección Bluetooth de cada usuario serán tratados con total discresión y solo con fines estadísticos y que aporten al desarrollo de esta aplicación móvil.</string>
+    <string name="parrafo4_terminos_y_condiciones">Un punto muy importante es la alerta enviada a sus contactos que ha contraído COVID-19, la misma que será enviada de manera anónima y sin ningún dato con el que pueda ser identificado.</string>
+    <string name="parrafo5_terminos_y_condiciones">Tenga la certera confianza de  que sus datos personales e información de su dispositivo estarán protegidos y solo serán usados por esta aplicación móvil.</string>
+    <string name="parrafo6_terminos_y_condiciones">Al seleccionar la opción de acepto los términos y condiciones, el usuario queda conforme con la infomación expuesta en los párrafos anteriores.</string>
+    <string name="permiso_ubicacion_btn"><u>PERMISO DE UBICACIÓN</u></string>
+    <string name="direccion_bluetooth_btn"><u>DIRECCIÓN BLUETOOTH</u></string>
+</resources>

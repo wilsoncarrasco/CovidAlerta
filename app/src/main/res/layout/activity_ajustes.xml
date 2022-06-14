@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.fernando.covidrastreo.actividades.AjustesActivity"
+    android:background="#D39999">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvEscanear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AJUSTES"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:gravity="center"/>
+
+        <View
+            android:id="@+id/lineaDiv0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="30dp"/>
+
+        <Switch
+            android:id="@+id/switchEscanear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="escanearManual"
+            android:text="Escaneo automático"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Escaneo constante en segundo plano"
+            android:textColor="#000" />
+
+        <View
+            android:id="@+id/lineaDiv1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:id="@id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvHora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="35dp"
+                    android:text="Hora de actualización diaria"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/etHora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/input"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Requiere conexión a internet."
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineaDiv2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Sesión"
+            android:background="@drawable/btn_facebook"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#fff"
+            android:onClick="cerrarSesion"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.fernando.covidrastreo.actividades.ReporteActivity"
+    android:background="#D39999">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPORTE"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_marginTop="40dp"/>
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/info_reporte"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esta semana"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvPrimeraSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuviste 5 contactos infectados"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hace 1 semana"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvSegundaSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuviste 5 contactos infectados"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hace 2 semanas"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvTerceraSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuviste 5 contactos infectados"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hace 3 semanas"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/tvCuartaSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuviste 5 contactos infectados"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

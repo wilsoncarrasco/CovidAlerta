@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.fernando.covidrastreo.fragmentsHuawei.InstruccionAyudaFragment2Huawei"
+    android:background="#206363">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASO 3"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="50dp" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/huawei_acercade" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="@string/texto_instruccion_2"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
